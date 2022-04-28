@@ -1,0 +1,25 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.single-card {
+    border: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.single-card:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons .delete {
+    display: inline;
+}
